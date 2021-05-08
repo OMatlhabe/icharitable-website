@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style__contact.css">
+    <script src="https://kit.fontawesome.com/ab7002f04a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Contact Page</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="logo">
+            <img src="logo.jpg" alt=logo>
+        </div>
+
+        <div class="links">
+            <div class="header__icon">
+                <img class='icon' src="icons8-home-64.png" alt="icon">
+                <span>Home</span>
+            </div>
+            <div class="header__icon">
+                <img class='icon' src="icons8-volunteering-64.png" alt="icon">
+                <span>Get Involved</span>
+            </div>
+            <div class="header__icon">
+                <img class='icon' src="icons8-donation-64.png" alt="icon">
+                <span>Projects</span>
+            </div>
+            <div class="header__icon">
+                <img class='icon' src="icons8-about-64.png" alt="icon">
+                <span>About us</span>
+            </div>
+            <div class="header__icon">
+                <img class='icon' src="icons8-contacts-64.png" alt="icon">
+                <span>Contact</span>
+            </div>
+        </div>
+    </header>
+
+    <footer class="footer">
+
+        <div class="footer__left">
+            <div class="title">
+                <h1>Our Contacts</h1>
+            </div>
+
+            <div class="contact__info">
+                <div class="icons">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <i class="fa fa-internet-explorer" aria-hidden="true"></i>
+                </div>
+
+                <div class="details">
+                    <p>+ 27 55 695 4985</p>
+                    <p>test@gmail.com</p>
+                    <p>www.website.com</p>
+                </div>
+            </div>
+
+        </div>
+
+    <form name="Users_Form" action="/action_page.php" onsubmit="return Form_Validation()" method="post"></form>
+        <div class="footer__right">
+            <div class="footer__rightTop">
+                <input class="input__name" type="text" placeholder="Name">
+                <input class="input__email" type="text" placeholder="Email">
+            </div>
+            <div class="footer__rightBottom">
+                <input class="message" type="text" placeholder="Message">
+            </div>
+            <input type="submit" type="Send Message">
+        </div>
+    </form>   
+    </footer>
+</body>
+<script src="Form_Validation.js"></script>
+</html>
